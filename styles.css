@@ -1,25 +1,44 @@
 
 h1 {
 	color:yellowgreen;
+	margin-left: 1em;
 }
 
 img {
 	width: 100%;
 }
 
+.topbar {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+	background: black;
+}
+
 ul {
 	display: flex;
 	list-style: none;
-	width: 100%;
+	width: 80%
 	background: grey;
-	justify-content: end;
-	padding: 1em;
+	
 }
+
+header ul li {
+	margin-right: 1em;
+}
+
+header {
+margin: -1em;
+}
+
 
 .grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   }
 
 .grid2 {
