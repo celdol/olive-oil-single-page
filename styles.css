@@ -1,0 +1,30 @@
+
+h1 {
+	color:yellowgreen;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	width: 100%;
+	background: grey;
+	justify-content: end;
+	padding: 1em;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em 10em;
+  padding: 1em 5em;
+  }
