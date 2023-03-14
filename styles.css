@@ -47,6 +47,7 @@ footer {
 .backgroundimage {
 	background-image: url("./images/olive oil 38.jpg");
 	height: 100vh;
+	margin-bottom: 2em;
 }
 
 .text-align-left {
@@ -83,10 +84,3 @@ div article p {
   .margintop {
   	margin-top: 1em;
   }
-
-  .container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
